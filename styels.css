@@ -10,12 +10,9 @@ body{
     border: 10px;
     border-radius: 10%;
     padding: 10px;
-    width: 1200 px;
-    height: 800 px;
 }
-.mainImage img{
+
+.mainImageFlower{
     width: 30%;
     height: auto;
 }
-
-
