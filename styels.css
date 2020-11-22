@@ -13,11 +13,15 @@ body{
     padding: 10px;
 }
 
-.navLists{
+.navWrapper{
     display: flex;
     justify-content: space-between;
     padding: 40px;
     text-transform: uppercase;
+}
+
+.navLists{
+    display: flex;
 }
 
 .navLists > div {
