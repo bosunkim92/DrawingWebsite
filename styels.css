@@ -19,3 +19,8 @@ body{
     padding: 40px;
     text-transform: uppercase;
 }
+
+.navLists > div {
+    margin-right: 50px;
+    font-size: 0.9em;
+}
