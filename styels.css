@@ -13,7 +13,9 @@ body{
     padding: 10px;
 }
 
-.mainImageFlower{
-    width: 1000px;
-    height: auto;
+.navLists{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    text-transform: uppercase;
 }
