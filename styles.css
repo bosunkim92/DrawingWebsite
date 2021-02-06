@@ -5,14 +5,23 @@ body{
 }
 
 .mainImage{
+    background: no-repeat center url(images/dahlia.jpg);
+    min-width: 500px;
+    min-height: 150px;
     display: flex;
-    margin: 100px;
-    border: 10px;
-    border-color: #000000;
-    border-radius: 10%;
-    padding: 10px;
+    background-size: 100%;
 }
 
+#mainHeading{
+    padding-top: 100px;
+    padding-left: 100px;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: max(50px);
+    font-style: italic;
+    color: white;
+    text-shadow: -5px 1px 1px #666;
+}
 .navWrapper{
     display: flex;
     justify-content: space-between;
