@@ -7,7 +7,7 @@ body{
 
 .mainImage{
     background: no-repeat center url(images/dahlia.jpg);
-    min-width: 543px;
+    min-width: 540px;
     min-height: 150px;
     display: flex;
     background-size: 100%;
@@ -27,15 +27,16 @@ body{
 .navWrapper{
     display: flex;
     justify-content: space-between;
-    padding-top: 5px;
+    padding: 5px 0px 5px 0px;
     text-transform: uppercase;
+    min-width: 600px;
+    margin-right: 100px;
 }
 
 .navLists{
     display: flex;
     padding: 3px;
     border: 2px solid #666;
-    min-width: 500px;
 }
 
 .navLists > div {
@@ -70,6 +71,6 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-footer{
+footer < div{
     text-align: center;
 }
