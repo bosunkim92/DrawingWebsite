@@ -11,6 +11,7 @@ body{
     min-height: 150px;
     display: flex;
     background-size: 100%;
+    border: 2px solid #666;
 }
 
 #mainHeading{
@@ -47,4 +48,8 @@ body{
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer{
+    text-align: center;
 }
