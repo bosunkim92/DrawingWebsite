@@ -48,6 +48,35 @@ body{
 .navLists:first-child{
     padding-left: 40px;
 }
+
+.dropbtn{
+    background-color: transparent;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.galleryDropdownContent{
+    display: none;
+    position: absolute;
+    background-color: #F6F6F6;
+}
+
+.galleryDropdownContent a{
+    color: #000;
+    padding: 3px 3px;
+    text-decoration: none;
+    display: block;
+}
+
+.galleryDropdownContent a:hover {background-color: #ddd;}
+.dropdown:hover .galleryDropdownContent {display: block;}
+.dropdown:hover .dropbtn {background-color: #d6acac;}
 /*
 .navListsLink {
     border: 2px solid #666;
