@@ -12,6 +12,7 @@ body{
     display: flex;
     background-size: 100%;
     border: 2px solid #666;
+    margin-bottom: 5px;
 }
 
 #mainHeading{
@@ -30,13 +31,12 @@ body{
     padding: 5px 0px 5px 0px;
     text-transform: uppercase;
     min-width: 600px;
-    margin-right: 100px;
+    border: 2px solid #666;
 }
 
 .navLists{
     display: flex;
     padding: 3px;
-    border: 2px solid #666;
 }
 
 .navLists > div {
